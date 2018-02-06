@@ -6,7 +6,7 @@ First of all, You need to install [docker](https://www.docker.com/) first. this 
 
 ##### install base images
 
-base images not in [docker official mirror image](store.docker.com),in this repo [docker-centos-6.8](www.github.com/betwowt/dokcer-Self-built-script/tree/master/docker-centos-6.8)
+base images not in [docker official mirror image](store.docker.com),in this repo [docker-centos-6.8](https://www.github.com/betwowt/dokcer-Self-built-script/tree/master/docker-centos-6.8/)
 
 > docker pull betwowt/centos:6.8
 
