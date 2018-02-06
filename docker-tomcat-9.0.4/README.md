@@ -4,20 +4,18 @@
 
 First of all, You need to install [docker](https://www.docker.com/) first. this dockerFile require official centos images
 
-##### install centos images
+##### install base images
 
-> docker pull centos:6.8
+base images not in [docker official mirror image](store.docker.com),in this repo [docker-centos-6.8](github.com/betwowt/dokcer-Self-built-script/tree/master/docker-centos-6.8)
 
-Use [official image acceleration](https://www.docker-cn.com/registry-mirror) for Chinese developers
-
->docker pull registry.docker-cn.com/library/centos:6.8
+> docker pull betwowt/centos:6.8
 
 ##### build images
 
->  docker build docker-tomcat-9.0.4 -t tomcat:1.0
+>  docker build github.com/betwowt/dokcer-Self-built-script/tree/master/docker-tomcat-9.0.4 -t betwowt/tomcat
 
 ##### run images
 
->  docker run -d -p 8080:8080 tomcat:1.0
+>  docker run -d -p 8080:8080 betwowt/tomcat
 
 http://localhost:8080/
